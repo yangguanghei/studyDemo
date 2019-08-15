@@ -1,8 +1,39 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/about/about"
-  ]
-
-
+    "pages/mine/mine",
+    "pages/repairs/repairs"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#1E90FF",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小程序",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#1E90FF",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/tabBar/tabbar_icon_home_selected@2x.png",
+        "selectedIconPath": "assets/tabBar/tabbar_icon_home_default@2x.png"
+      },
+      {
+        "pagePath": "pages/repairs/repairs",
+        "text": "报修",
+        "iconPath": "assets/tabBar/tabbar_icon_home_selected@2x.png",
+        "selectedIconPath": "assets/tabBar/tabbar_icon_home_default@2x.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "assets/tabBar/tabbar_icon_user_selected@2x.png",
+        "selectedIconPath": "assets/tabBar/tabbar_icon_user_default@2x.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap35.json"
 }

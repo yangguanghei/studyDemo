@@ -1,2 +1,9 @@
 <text class='title'>hello world</text>
 <view>知识点1</view>
+<view>我的名字叫{{name}}</view>
+
+<view wx:for="{{sons}}">儿子的名字：{{item.name}}</view>
+
+<view>数字:{{counter}}</view>
+<button size='mini' bindtap='clickPlusBtn'>+</button>
+<button size='mini' open-type='getUserInfo' bindgetuserinfo='getUserInfo'>获取授权</button>
